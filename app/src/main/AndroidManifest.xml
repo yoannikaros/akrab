@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.akrab.aplikasi">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        tools:ignore="ScopedStorage" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+
+    <application
+        android:name="com.akrab.aplikasi.groupVideoCall.openvcall.AGApplicationVideo"
+        android:allowBackup="true"
+        android:extractNativeLibs="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="AllowBackup"
+        tools:replace="android:theme">
+        <activity android:name="com.akrab.aplikasi.group.JoinRequestActivity" />
+        <activity android:name="com.akrab.aplikasi.StickersPost" />
+        <activity android:name="com.akrab.aplikasi.SendStickerActivity" />
+        <activity android:name="com.akrab.aplikasi.Stickers" />
+        <activity android:name="com.akrab.aplikasi.admin.WarnGroupActivity" />
+        <activity android:name="com.akrab.aplikasi.admin.WarnUserActivity" />
+        <activity android:name="com.akrab.aplikasi.admin.VerificationRequestActivity" />
+        <activity android:name="com.akrab.aplikasi.admin.ReportedPostActivity" />
+        <activity android:name="com.akrab.aplikasi.admin.ReportedReelsActivity" />
+        <activity android:name="com.akrab.aplikasi.admin.ReportedGroupsActivity" />
+        <activity android:name="com.akrab.aplikasi.admin.ReportedUserActivity" />
+        <activity android:name="com.akrab.aplikasi.admin.AdminActivity" />
+        <activity android:name="com.akrab.aplikasi.menu.PrivacyActivity" />
+        <activity android:name="com.akrab.aplikasi.group.AddGroupActivity" />
+        <activity android:name="com.akrab.aplikasi.group.GroupMembersActivity" />
+        <activity android:name="com.akrab.aplikasi.menu.EditNumberActivity" />
+        <activity android:name="com.akrab.aplikasi.menu.EditEmailActivity" />
+        <activity android:name="com.akrab.aplikasi.menu.EditPasswordActivity" />
+        <activity android:name="com.akrab.aplikasi.menu.VerificationActivity" />
+        <activity android:name="com.akrab.aplikasi.menu.SavedActivity" />
+        <activity android:name="com.akrab.aplikasi.menu.MenuActivity" />
+        <activity android:name="com.akrab.aplikasi.who.FollowersActivity" />
+        <activity android:name="com.akrab.aplikasi.who.FollowingActivity" />
+        <activity android:name="com.akrab.aplikasi.notifications.NotificationScreen" />
+        <activity android:name="com.akrab.aplikasi.who.ReelLikedActivity" />
+        <activity android:name="com.akrab.aplikasi.who.ViewedActivity" />
+        <activity android:name="com.akrab.aplikasi.story.ChatStoryViewActivity" />
+        <activity android:name="com.akrab.aplikasi.story.HighViewActivity" />
+        <activity android:name="com.akrab.aplikasi.search.LocationActivity" />
+        <activity android:name="com.akrab.aplikasi.who.LikedActivity" />
+        <activity android:name="com.akrab.aplikasi.story.StoryViewActivity" />
+        <activity android:name="com.akrab.aplikasi.story.AddStoryActivity" />
+        <activity android:name="com.akrab.aplikasi.podcast.StartPodcastActivity" />
+        <activity
+            android:name="com.akrab.aplikasi.podcast.PodcastActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.akrab.aplikasi.live.LiveActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.akrab.aplikasi.live.StartLiveActivity" />
+        <activity
+            android:name="com.akrab.aplikasi.reel.ViewReelActivity"
+            android:theme="@style/ReelTheme" />
+        <activity android:name="com.akrab.aplikasi.reel.ReelCommentActivity" />
+        <activity
+            android:name="com.akrab.aplikasi.reel.ReelActivity"
+            android:theme="@style/ReelTheme" />
+        <activity android:name="com.akrab.aplikasi.send.ImageEditingActivity" />
+        <activity android:name="com.akrab.aplikasi.send.VideoEditingActivity" />
+        <activity android:name="com.akrab.aplikasi.reel.PostReelActivity" />
+        <activity android:name="com.akrab.aplikasi.reel.VideoEditActivity" />
+        <activity android:name="com.akrab.aplikasi.send.SendToGroupActivity" />
+        <activity android:name="com.akrab.aplikasi.send.SendToUserActivity" />
+        <activity android:name="com.akrab.aplikasi.send.SendMediaActivity" />
+        <activity android:name="com.akrab.aplikasi.send.MediaSelectActivity" />
+        <activity android:name="com.akrab.aplikasi.faceFilters.FaceFilters" />
+        <activity android:name="com.akrab.aplikasi.marketPlace.ProductDetailsActivity" />
+        <activity android:name="com.akrab.aplikasi.marketPlace.MarketPlaceActivity" />
+        <activity android:name="com.akrab.aplikasi.marketPlace.PostProductActivity" />
+        <activity android:name="com.akrab.aplikasi.watchParty.StartYouTubeActivity" />
+        <activity android:name="com.akrab.aplikasi.watchParty.StartPartyActivity" />
+        <activity
+            android:name="com.akrab.aplikasi.watchParty.YouTubePartyActivity"
+            android:theme="@style/Party" />
+        <activity android:name="com.akrab.aplikasi.watchParty.InviteMoreActivity" />
+        <activity android:name="com.akrab.aplikasi.watchParty.ChangeWatchPartyActivity" />
+        <activity
+            android:name="com.akrab.aplikasi.watchParty.WatchPartyActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden|screenLayout|screenSize"
+            android:theme="@style/Party" />
+        <activity android:name="com.akrab.aplikasi.watchParty.PartyPostActivity" />
+        <activity android:name="com.akrab.aplikasi.watchParty.PartyPrivacyActivity" />
+        <activity android:name="com.akrab.aplikasi.watchParty.InviteActivity" />
+        <activity android:name="com.akrab.aplikasi.watchParty.StartWatchPartyActivity" />
+        <activity android:name="com.akrab.aplikasi.meeting.MeetingActivity" />
+        <activity
+            android:name="com.akrab.aplikasi.groupVideoCall.openvcall.ui.VideoGroupCallActivity"
+            android:theme="@style/FullScreenVideoTheme" />
+        <activity
+            android:name="com.akrab.aplikasi.groupVideoCall.CallingGroupVideoActivity"
+            android:theme="@style/SplashScreen" />
+        <activity
+            android:name="com.akrab.aplikasi.groupVideoCall.RingingGroupVideoActivity"
+            android:theme="@style/SplashScreen" />
+        <activity
+            android:name="com.akrab.aplikasi.groupVoiceCall.RingingGroupVoiceActivity"
+            android:theme="@style/SplashScreen" />
+        <activity
+            android:name="com.akrab.aplikasi.groupVoiceCall.CallingGroupVoiceActivity"
+            android:theme="@style/SplashScreen" />
+        <activity
+            android:name="com.akrab.aplikasi.groupVoiceCall.openacall.ui.VoiceCallGroupActivity"
+            android:screenOrientation="sensorPortrait"
+            android:theme="@style/SplashScreen" />
+        <activity android:name="com.akrab.aplikasi.group.GroupChatActivity" />
+        <activity android:name="com.akrab.aplikasi.group.CommentGroupActivity" />
+        <activity android:name="com.akrab.aplikasi.group.CreateGroupPostActivity" />
+        <activity android:name="com.akrab.aplikasi.group.EditGroupActivity" />
+        <activity android:name="com.akrab.aplikasi.group.GroupFragment" />
+        <activity android:name="com.akrab.aplikasi.group.GroupProfileActivity" />
+        <activity android:name="com.akrab.aplikasi.group.AddMemberActivity" />
+        <activity android:name="com.akrab.aplikasi.group.StepThreeActivity" />
+        <activity android:name="com.akrab.aplikasi.group.StepTwoActivity" />
+        <activity android:name="com.akrab.aplikasi.group.StepOneActivity" />
+        <activity
+            android:name="com.akrab.aplikasi.calling.VoiceChatViewActivity"
+            android:screenOrientation="sensorPortrait"
+            android:theme="@style/SplashScreen" />
+        <activity
+            android:name="com.akrab.aplikasi.calling.VideoChatViewActivity"
+            android:screenOrientation="sensorPortrait"
+            android:theme="@style/FullScreenVideoTheme" />
+        <activity
+            android:name="com.akrab.aplikasi.calling.RingingActivity"
+            android:theme="@style/SplashScreen" />
+        <activity
+            android:name="com.akrab.aplikasi.calling.CallingActivity"
+            android:theme="@style/SplashScreen" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyC9XUVOJW1PPz9D0TN3PmeWCsKVDqvk6j4" />
+
+        <activity android:name="com.akrab.aplikasi.chat.ChatActivity" />
+        <activity android:name="com.akrab.aplikasi.chat.CreateChatActivity" />
+        <activity android:name="com.akrab.aplikasi.MediaViewActivity" />
+        <activity android:name="com.akrab.aplikasi.post.CommentActivity" />
+        <activity android:name="com.akrab.aplikasi.search.SearchActivity" />
+        <activity android:name="com.akrab.aplikasi.search.TrendingActivity" />
+        <activity android:name="com.akrab.aplikasi.post.CreatePostActivity" />
+        <activity android:name="com.akrab.aplikasi.profile.UserProfileActivity" />
+        <activity android:name="com.akrab.aplikasi.profile.EditProfileActivity" />
+        <activity android:name="com.akrab.aplikasi.emailAuth.ForgotPasswordActivity" />
+        <activity android:name="com.akrab.aplikasi.Check" />
+        <activity android:name="com.akrab.aplikasi.phoneAuth.RegisterActivity" />
+        <activity android:name="com.akrab.aplikasi.phoneAuth.VerifyOTPActivity" />
+        <activity android:name="com.akrab.aplikasi.phoneAuth.GenerateOTPActivity" />
+        <activity android:name="com.akrab.aplikasi.emailAuth.SignUpActivity" />
+        <activity android:name="com.akrab.aplikasi.emailAuth.LoginActivity" />
+        <activity android:name="com.akrab.aplikasi.welcome.IntroLast" />
+        <activity android:name="com.akrab.aplikasi.welcome.IntroActivity" />
+        <activity
+            android:name="com.akrab.aplikasi.welcome.SplashScreenActivity"
+            android:theme="@style/SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.akrab.aplikasi.MainActivity" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-8957916229862289~8996479428" />
+
+        <service
+            android:name="com.akrab.aplikasi.notifications.FirebaseMessaging"
+            android:enabled="true"
+            android:exported="true"
+            tools:ignore="ExportedService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "241940809612",
+    "project_id": "akrab-com",
+    "storage_bucket": "akrab-com.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:241940809612:android:5e9d5576891664cf1db8a9",
+        "android_client_info": {
+          "package_name": "com.akrab.aplikasi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "241940809612-pd42tonpcae70klt69qq0egkoc59d4um.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.akrab.aplikasi",
+            "certificate_hash": "003cfa0b1317ac4def90bd0e893923eaad8e8fc4"
+          }
+        },
+        {
+          "client_id": "241940809612-c3mfrdr0frlkr7tk4561mf4mqj29ifui.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBR-8i45QYmG2LYrN05H8zlOl5sTT4TOus"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "241940809612-c3mfrdr0frlkr7tk4561mf4mqj29ifui.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

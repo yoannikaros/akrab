@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="?attr/layoutcolor"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:ignore="Overdraw">
+
+    <LinearLayout
+        android:id="@+id/message"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="UseCompoundDrawables">
+
+        <ImageView
+            android:padding="3dp"
+            android:src="@drawable/ic_message"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            app:tint="?attr/textcolor"
+            android:contentDescription="TODO"
+           tools:ignore="ContentDescription,HardcodedText" />
+
+        <TextView
+            android:textColor="?attr/textcolor"
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            android:layout_marginStart="8dp"
+            android:fontFamily="@font/bold"
+            android:text="Message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           tools:ignore="ContentDescription,HardcodedText" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/poke"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="UseCompoundDrawables">
+
+        <ImageView
+            android:padding="3dp"
+            android:src="@drawable/ic_poke"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            app:tint="?attr/textcolor"
+            android:contentDescription="TODO"
+            tools:ignore="ContentDescription,HardcodedText" />
+
+        <TextView
+            android:textColor="?attr/textcolor"
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            android:layout_marginStart="8dp"
+            android:fontFamily="@font/bold"
+            android:text="Poke"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           tools:ignore="ContentDescription,HardcodedText" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/block"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="UseCompoundDrawables">
+
+        <ImageView
+            android:padding="3dp"
+            android:src="@drawable/ic_cancel"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            app:tint="?attr/textcolor"
+            android:contentDescription="TODO"
+           tools:ignore="ContentDescription,HardcodedText" />
+
+        <TextView
+            android:textColor="?attr/textcolor"
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            android:layout_marginStart="8dp"
+            android:fontFamily="@font/bold"
+            android:text="Block"
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           tools:ignore="ContentDescription,HardcodedText" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/report"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="UseCompoundDrawables">
+
+        <ImageView
+            android:padding="3dp"
+            android:src="@drawable/ic_flag"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            app:tint="?attr/textcolor"
+            android:contentDescription="TODO"
+           tools:ignore="ContentDescription,HardcodedText" />
+
+        <TextView
+            android:textColor="?attr/textcolor"
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            android:layout_marginStart="8dp"
+            android:fontFamily="@font/bold"
+            android:text="Report"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           tools:ignore="ContentDescription,HardcodedText" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

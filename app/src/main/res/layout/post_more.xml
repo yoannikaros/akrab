@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="?attr/layoutcolor"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:ignore="Overdraw">
+
+    <LinearLayout
+        android:id="@+id/camera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:orientation="horizontal"
+        tools:ignore="UseCompoundDrawables">
+
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:baselineAligned="false"
+            android:padding="2dp"
+            android:src="@drawable/camera"
+            android:contentDescription="TODO"
+           tools:ignore="ContentDescription,HardcodedText" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/bold"
+            android:text="Camera"
+            android:textColor="?attr/textcolor"
+            android:textSize="18sp"
+           tools:ignore="ContentDescription,HardcodedText" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:orientation="horizontal"
+        tools:ignore="UseCompoundDrawables">
+
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:baselineAligned="false"
+            android:padding="2dp"
+            android:src="@drawable/add_photo"
+            android:contentDescription="TODO"
+            tools:ignore="ContentDescription,HardcodedText" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/bold"
+            android:text="Add Image"
+            android:textColor="?attr/textcolor"
+            android:textSize="18sp"
+           tools:ignore="ContentDescription,HardcodedText" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/video"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="18dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="UseCompoundDrawables">
+
+        <ImageView
+            android:padding="2dp"
+            android:src="@drawable/add_video"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:contentDescription="TODO"
+           tools:ignore="ContentDescription,HardcodedText" />
+
+        <TextView
+            android:textColor="?attr/textcolor"
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/bold"
+            android:text="Add Video"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           tools:ignore="ContentDescription,HardcodedText" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/audio"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="18dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="UseCompoundDrawables">
+
+        <ImageView
+            android:padding="2dp"
+            android:src="@drawable/add_audio"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:contentDescription="TODO"
+           tools:ignore="ContentDescription,HardcodedText" />
+
+        <TextView
+            android:textColor="?attr/textcolor"
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/bold"
+            android:text="Add Audio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           tools:ignore="ContentDescription,HardcodedText" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/background"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="18dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="UseCompoundDrawables">
+
+        <ImageView
+            android:padding="2dp"
+            android:src="@drawable/poll"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:contentDescription="TODO"
+           tools:ignore="ContentDescription,HardcodedText" />
+
+        <TextView
+            android:textColor="?attr/textcolor"
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/bold"
+            android:text="Background colour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           tools:ignore="ContentDescription,HardcodedText" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/gif"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginRight="16dp"
+        android:orientation="horizontal"
+        tools:ignore="UseCompoundDrawables">
+
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:padding="2dp"
+            android:src="@drawable/gif"
+            android:contentDescription="TODO"
+           tools:ignore="ContentDescription,HardcodedText" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/bold"
+            android:text="Add GIF"
+            android:textColor="?attr/textcolor"
+            android:textSize="18sp"
+           tools:ignore="ContentDescription,HardcodedText" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/feeling"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="18dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="UseCompoundDrawables">
+
+        <ImageView
+            android:padding="2dp"
+            android:src="@drawable/add_feeling"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:contentDescription="TODO"
+           tools:ignore="ContentDescription,HardcodedText" />
+
+        <TextView
+            android:textColor="?attr/textcolor"
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/bold"
+            android:text="Feeling / Activity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           tools:ignore="ContentDescription,HardcodedText" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/meeting"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="18dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="UseCompoundDrawables">
+
+        <ImageView
+            android:padding="2dp"
+            android:src="@drawable/meetings"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:contentDescription="TODO"
+           tools:ignore="ContentDescription,HardcodedText" />
+
+        <TextView
+            android:textColor="?attr/textcolor"
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/bold"
+            android:text="Create Room / Meeting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           tools:ignore="ContentDescription,HardcodedText" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/reels"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="18dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="UseCompoundDrawables">
+
+        <ImageView
+            android:padding="2dp"
+            android:src="@drawable/reels"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:contentDescription="TODO"
+           tools:ignore="ContentDescription,HardcodedText" />
+
+        <TextView
+            android:textColor="?attr/textcolor"
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/bold"
+            android:text="Add reels"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           tools:ignore="ContentDescription,HardcodedText" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/live"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="18dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="UseCompoundDrawables">
+
+        <ImageView
+            android:padding="2dp"
+            android:src="@drawable/live"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:contentDescription="TODO"
+           tools:ignore="ContentDescription,HardcodedText" />
+
+        <TextView
+            android:textColor="?attr/textcolor"
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/bold"
+            android:text="Go Live"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           tools:ignore="ContentDescription,HardcodedText" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/podcast"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="18dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="UseCompoundDrawables">
+
+        <ImageView
+            android:padding="2dp"
+            android:src="@drawable/podcast"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:contentDescription="TODO"
+           tools:ignore="ContentDescription,HardcodedText" />
+
+        <TextView
+            android:textColor="?attr/textcolor"
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/bold"
+            android:text="Create Podcast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           tools:ignore="ContentDescription,HardcodedText" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/watch_party"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="18dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="UseCompoundDrawables">
+
+        <ImageView
+            android:padding="2dp"
+            android:src="@drawable/party"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:contentDescription="TODO"
+           tools:ignore="ContentDescription,HardcodedText" />
+
+        <TextView
+            android:textColor="?attr/textcolor"
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/bold"
+            android:text="Watch Party"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           tools:ignore="ContentDescription,HardcodedText" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/stories"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="18dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="UseCompoundDrawables">
+
+        <ImageView
+            android:padding="2dp"
+            android:src="@drawable/stories"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:contentDescription="TODO"
+           tools:ignore="ContentDescription,HardcodedText" />
+
+        <TextView
+            android:textColor="?attr/textcolor"
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/bold"
+            android:text="Add stories"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           tools:ignore="ContentDescription,HardcodedText" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/sell"
+        android:layout_marginBottom="18dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="18dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="UseCompoundDrawables">
+
+        <ImageView
+            android:padding="2dp"
+            android:src="@drawable/sell"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:contentDescription="TODO"
+           tools:ignore="ContentDescription,HardcodedText" />
+
+        <TextView
+            android:textColor="?attr/textcolor"
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/bold"
+            android:text="Sell something"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           tools:ignore="ContentDescription,HardcodedText" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

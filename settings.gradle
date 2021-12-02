@@ -1,0 +1,5 @@
+include ':Stipop'
+include ':nativetemplates'
+include ':deepar'
+include ':app'
+rootProject.name = "Myfriend"

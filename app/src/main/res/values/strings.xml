@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">Akrab</string>
+
+    <!-- Privacy -->
+    <string-array name="privacy">
+        <item>Everyone</item>
+        <item>Followers</item>
+        <item>No one</item>
+    </string-array>
+
+    <!-- PLEASE KEEP THIS App ID IN SAFE PLACE -->
+    <!-- Get your own App ID at https://dashboard.agora.io/ -->
+    <!-- After you entered the App ID, remove <##> outside of Your App ID -->
+    <string name="agora_app_id" translatable="false">49b8cb3b25144840bb9622c9345785d1</string>
+
+    <!-- Obtain a temp Access Token at https://dashboard.agora.io -->
+    <!-- You will need to deploy your own token server for production release -->
+    <!-- Leave this value empty if Security keys/Token is not enabled for your project -->
+    <string name="agora_access_token" translatable="false" />
+
+    <string name="msg_no_network_connection" translatable="false">No network connection, please check the network settings</string>
+
+    <string name="bit_rate_value_with_unit" translatable="false">%d kbps</string>
+    <string name="frame_rate_value_with_unit" translatable="false">%d fps</string>
+
+    <string-array name="encryption_mode_values">
+        <item>AES-128-XTS</item>
+        <item>AES-256-XTS</item>
+    </string-array>
+
+    <string-array name="string_array_resolutions">
+        <item>160x120</item>
+        // 120P
+        <item>320x180</item>
+        // 180P
+        <item>320x240</item>
+        // 240P the default one
+        <item>640x360</item>
+        // 360P
+        <item>640x480</item>
+        // 480P
+        <item>1280x720</item>
+        // 720P
+    </string-array>
+
+    <string-array name="string_array_frame_rate">
+        <item>1</item>
+        <item>7</item>
+        <item>10</item>
+        <item>15</item>
+        // the default one
+        <item>24</item>
+        <item>30</item>
+    </string-array>
+
+    <string-array name="type">
+        <item>Used</item>
+        <item>New</item>
+    </string-array>
+
+    <string-array name="cat">
+        <item>Autos &amp; Vehicles</item>
+        <item>Baby &amp; Children\s Products</item>
+        <item>Beauty Products &amp; Services</item>
+        <item>Computers</item>
+        <item>Electronics</item>
+        <item>Dating</item>
+        <item>Financial</item>
+        <item>Gift</item>
+        <item>Home</item>
+        <item>Others</item>
+    </string-array>
+
+    <string name="native_ad_unit_id" translatable="false">ca-app-pub-8957916229862289/1701918113</string>  <!-- Paste Native Ad unit id here for admob -->
+    <string name="banner_ad_unit_id" translatable="false">ca-app-pub-8957916229862289/6954244791</string>  <!-- Paste Banner Ad unit id here for admob -->
+
+
+    <string name="msg_connection_error" translatable="false">Connection error, please check the network settings or make sure channel name/access token are valid</string>
+    <string name="verification_about" translatable="false">A verified badge is a check that appears on a account to indicate that the account is the authentic presence of a notable public figure, celebrity, global brand or entity it represents. Submitting a request not guarantee that your account will be verified.</string>
+
+</resources>
